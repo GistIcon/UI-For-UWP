@@ -47,5 +47,11 @@
     <ClInclude Include="D3DResources.h" />
     <ClInclude Include="Enumerations.h" />
     <ClInclude Include="Extensions.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
